@@ -13,10 +13,34 @@
 
     </head>
     <body>
-        {{ content }}
+        <div class="containter">
 
+            <!-- header and page title -->
+            <div class="logo">
+                <p>andhess</p>
+            </div>
 
+            <!-- side nav -->
+            <div class="sidenav nav-collapse collapse">
+                <ul class="nav nav-pills">
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Project</a></li>
+                    <li><a href="">CV</a></li>
+                    <li><a href="https://twitter.com/andhess">Twitter</a></li>
+                    <li><a href="https://github.com/andhess">Github</a></li>
+                </ul>
+            </div>
 
+            <!-- stuff in the page -->
+            <div class="content">
+                {{ content }}
+            </div>
+
+            <!-- feet -->
+            <div class="feet">
+                <small>andrew hess</small>
+            </div>
+        </div>
         <!-- bootstrap & jquery -->
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
