@@ -1,0 +1,62 @@
+/* Fonts */
+
+body{
+    background: #fcfcfc;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Colors (or lack there of) */
+
+a, p, h1, h2, h4, h5{
+    color: #525252;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Paddings */
+
+footer{
+    padding-top: 350px;
+}
+
+#navigation{
+    padding-top: 40px;
+}
+
+.content{
+    padding: 29px 0px 40px 0px;
+}
+
+#about{
+    line-height: 35px;
+}
+
+.sidenav{
+    padding-top: 50px;
+}
+
+.entry{
+    padding-bottom: 15px;
+}
+
+/* Responsive Stuff */
+
+@media screen and ( max-width: 768px ) {
+    .mainCol{
+        padding-top: 0px;
+    }
+}
+
+@media screen and ( min-width: 768px ) {
+    .mainCol{
+        padding-top: 54px;
+    }
+}
