@@ -4,9 +4,9 @@ layout: default
 <article>
 <div class="blob">
     <div class="details">
-        <p>{{ page.date | date: "%e %B %Y" }} {{ page.description }}</p>
+        <p>{{ page.date | date: "%B %e, %Y" }}<br>{{ page.description }}</p>
     </div>
-    <div class="content">
+    <div class="article">
         {{ content }}
     </div>
 </div>
