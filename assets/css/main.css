@@ -1,18 +1,18 @@
 /* Fonts */
 
-body{
+body, .mobileNav{
     background: #fcfcfc;
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2{
+h1, h2, .brand{
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
 }
 
 /* Colors (or lack there of) */
 
-a, p, h1, h2, h4, h5{
+a, p, h1, h2, h4, h5, ul, li{
     color: #525252;
 }
 
@@ -35,7 +35,7 @@ footer{
     padding: 29px 0px 40px 0px;
 }
 
-#about{
+#about, #contact{
     line-height: 35px;
 }
 
@@ -49,12 +49,14 @@ footer{
 
 /* Responsive Stuff */
 
+/* narrow */
 @media screen and ( max-width: 768px ) {
     .mainCol{
         padding-top: 0px;
     }
 }
 
+/* wide */
 @media screen and ( min-width: 768px ) {
     .mainCol{
         padding-top: 54px;
