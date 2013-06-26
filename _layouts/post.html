@@ -3,10 +3,11 @@ layout: default
 ---
 <article>
 <div class="blob">
-    <div class="details">
-        <p>{{ page.date | date: "%B %e, %Y" }}<br>{{ page.description }}</p>
-    </div>
     <div class="article">
+        <div class="details">
+            <h3>{{ page.title }}</h3>
+            <p><small>{{ page.date | date: "%B %e, %Y" }}</small><p>
+        </div>
         {{ content }}
     </div>
 </div>

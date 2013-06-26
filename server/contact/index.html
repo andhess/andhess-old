@@ -5,11 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>
-            {% if page.title %}
-                andhess: {{ page.title}}
-            {% else %}
-                andhess
-            {% endif %}
+            
+                andhess: contact
+            
         </title>
 
         <!-- fonts -->
@@ -40,7 +38,11 @@
                         <a class="brand" href="/">andhess</a>
                         <div class="nav-collapse collapse">
                             <ul class="nav mobileNav">
-                                {% include navBullets.html %}
+                                <li><a href="/blog">blog</a></li>
+<li><a href="/contact">contact</a></li>
+<li><a href="http://cv.andhess.com">curriculum vitae</a></li>
+<li><a href="https://github.com/andhess">github</a></li>
+<li><a href="https://twitter.com/andhess">twitter</a></li>
                             </ul>
                         </div><!--/.nav-collapse -->
                     </div>
@@ -55,7 +57,11 @@
                     <div data-spy="affix" class="affix hidden-phone">
                         <a href="/"><h1>andhess</h1></a>
                         <ul class="nav nav-pills nav-stacked" id="navigation">
-                            {% include navBullets.html %}
+                            <li><a href="/blog">blog</a></li>
+<li><a href="/contact">contact</a></li>
+<li><a href="http://cv.andhess.com">curriculum vitae</a></li>
+<li><a href="https://github.com/andhess">github</a></li>
+<li><a href="https://twitter.com/andhess">twitter</a></li>
                         </ul>
                         <footer>
                             <p><small>Andrew Hess &copy; 2013</small></p>
@@ -70,21 +76,21 @@
                     <!-- page title -->
                     <div id="pageTitle">
                         <h2>
-                            {% if page.title %}
-                                {% if page.date %}
-                                    posts
-                                {% else %}
-                                    {{ page.title }}
-                                {% endif %}
-                            {% else %}
-                                home
-                            {% endif %}
+                            
+                                
+                                    contact
+                                
+                            
                         </h2>
                     </div>
 
                     <!-- stuff in the page -->
                     <div class="content">
-                        {{ content }}
+                        <div id="contact">
+    <div id="contact-main">
+        <p>Dude, <a href="mailto:andrew@andrewhess.net">email</a></p>
+    </div>
+</div>
                     </div>
                 </div>
             </div>
