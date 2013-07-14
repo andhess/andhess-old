@@ -6,7 +6,7 @@
 
         <title>
             {% if page.title %}
-                andhess: {{ page.title}}
+                andhess // {{ page.title}}
             {% else %}
                 andhess
             {% endif %}
@@ -39,7 +39,7 @@
                         </button>
                         <a class="brand" href="/">andhess</a>
                         <div class="nav-collapse collapse">
-                            <ul class="nav mobileNav">
+                            <ul class="nav mobileNav raleNav">
                                 {% include navBullets.html %}
                             </ul>
                         </div><!--/.nav-collapse -->
@@ -51,10 +51,10 @@
         <div class="container main-body">
 
             <div class="row-fluid">
-                <div class="offset1 span2 sidenav"> <!--  nav-collapse collapse -->
+                <div class="offset1 span2 sidepanel"> <!--  nav-collapse collapse -->
                     <div data-spy="affix" class="affix hidden-phone">
                         <a href="/"><h1>andhess</h1></a>
-                        <ul class="nav nav-pills nav-stacked" id="navigation">
+                        <ul class="nav nav-pills nav-stacked raleNav" id="navigation">
                             {% include navBullets.html %}
                         </ul>
                         <footer>

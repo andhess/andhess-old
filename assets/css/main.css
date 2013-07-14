@@ -5,9 +5,13 @@ body, .mobileNav{
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3, .brand{
+h1, h2, h3, h4, .brand, .raleNav, .connectModes{
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
+}
+
+h5{
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Colors (or lack there of) */
@@ -21,34 +25,50 @@ a:hover, a h1:hover{
     text-decoration: none;
 }
 
+/* UL */
+
+.content ul{
+    margin-top: -4px;
+    padding-bottom: 18px;
+    list-style-type:none;
+}
+
+.connectModes li{
+    line-height: 25px;
+}
+
 /* Paddings */
 
-footer{
-    padding-top: 350px;
+.sidepanel{
+    padding-top: 50px;
 }
 
 #navigation{
     padding-top: 56px;
 }
 
+.home, .about, .connect{
+    padding-top: 27px;
+}
+
+.posts{
+    padding-top: 19px;
+}
+
+footer{
+    padding-top: 350px;
+}
+
+/* about */
+
+#about-main p{
+    padding-bottom: 20px;
+}
+
+/* Post Specific Stuff */
+
 .content{
     padding: 29px 0px 40px 0px;
-}
-
-#about, #contact, .posts{
-    padding-top: 20px;
-}
-
-#about, #contact{
-    line-height: 22px;
-}
-
-#about{
-    font-size: 13pt;
-}
-
-.sidenav{
-    padding-top: 50px;
 }
 
 .entry{
@@ -56,7 +76,7 @@ footer{
 }
 
 .description{
-    margin-top: -4px;
+    margin-top: -10px;
 }
 
 .details p{
